@@ -45,8 +45,15 @@ does not mean it is not going to be organized as well as possible :). In my bio 
  _Next_: There is a folder inside the named folders for _our_ scripts. 
 
 ```feature
-      Feature put script into folder
-      scenario when script is complete
+      Feature: put script into folder
+
+      scenario: 'when <script> is complete
+      you test <script> and want to share with Automate
+      then send a pull request with <script>
+      or .feature for a <script>. You pull 
+      rquest for said scriptingLanguage/scriptFolder/
+      or scriptingLanguage/Gherkin/ <- for .features.'
+
          When "script is done in 'bash'"
          Then 'pull request to place in
          correct folder which would be
